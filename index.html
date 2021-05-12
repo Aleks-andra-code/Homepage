@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="body">
+    <header>
+        <div class="title">
+            <h1 class="titleText">Aleksandra Kozioł </h1>
+        </div>
+    </header>
+    <nav id="nawigacja" class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="#o-mnie" class="navigation__link">O mnie</a></li>
+            <li class="navigation__item"><a href="#doswiadczenie-zawodowe" class="navigation__link">Doświadczenie
+                    zawodowe</a>
+            </li>
+            <li class="navigation__item"><a href="#zainteresowania" class="navigation__link">Zainteresowania</a></li>
+            <li class="navigation__item"><a href="#kontakt" class="navigation__link">Kontakt</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="o-mnie" class="section">
+            <h2 class="section__header">O mnie</h2>
+            <p>Cześć nazywam się <strong>Aleksandra Kozioł</strong>, mam 28 lat. Pochodzę z mazur dokładnie z
+                miejscowości o nazwie Pisz, znanej jako
+                <b> "Brama
+                    Mazur"</b>. W tej chwili mieszkam w Piotrkowie Trybunalskim, ale przez ostatnie 9 lat moje
+                życie toczyło się w
+                Trójmieście. <br> Moja praca opiera się głównie na obsłudze klienta. Po pracy spędzam dużo czasu z moim
+                psem oraz przyjaciółmi. Mój czworonożny
+                towarzysz nazywa się <b class="section__element--riko">Riko</b>. Zabrałam go ze schroniska gdy
+                miał 3 miesiące i tak jest ze mną już prawie 2 lata.
+            <p class="section__element--aboutMe">W skrócie: Pozytywnie
+                nastawiona, marzycielka ,
+                miłośniczka psów i pasjonatka podróży.</p>
+            <p> Jeśli chcesz poznać Riko jest poniżej :) <br>
+                <img src="https://i.postimg.cc/d3wBWP05/Riko.jpg" alt="Aleksandra i Riko" class="section__image">
+            </p>
+            <p><button class="section__button js-button">Pokaż zdjęcie</button></p>
+        </section>
+        <section id="doswiadczenie-zawodowe" class="section">
+            <h2 class="section__header">Doświadczenie zawodowe</h2>
+            <div class="container">
+                <table class="table">
+                    <caption class="table__caption"> Moje doświadczenie zawodowe </caption>
+                    <tr class="table__row">
+                        <th scope="col" class="table__cell table__header">DATA</th>
+                        <th scope="col" class="table__cell table__header">PRACODAWCA</th>
+                        <th scope="col" class="table__cell table__header">STANOWISKO</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" class="table__cell">2021.03.01-nadal</th>
+                        <td class="table__cell">PZU S.A</td>
+                        <td class="table__cell">Doradca Klienta</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" class="table__cell">2019.12.01-2021.02.01</th>
+                        <td class="table__cell">GTI Sp. Z o.o.</td>
+                        <td class="table__cell">Kierownik Salonu Orange</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" class="table__cell">2017.06.01-2019.11.01</th>
+                        <td class="table__cell">Orange Polska S.A</td>
+                        <td class="table__cell">Specjalista ds. Sprzedaży</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" class="table__cell">2105.12.01-2017.02.01</th>
+                        <td class="table__cell">P4 Sp. Z o.o.</td>
+                        <td class="table__cell">Konsulatant ds. Sprzedaży</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" class="table__cell">2015.10.01-2015.12.01</th>
+                        <td class="table__cell">DLF Sp. Z o.o.</td>
+                        <td class="table__cell">Przedstawiciel Handlowy</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section id="zainteresowania" class="section">
+            <h2 class="section__header">Zainteresowania</h2>
+            Moim głównym zanteresowaniem i równocześnie pasją są : <b>PODRÓŻE</b>. <br> Kocham podróże za to, że dają
+            możliwość poznania innej: kultury, natury oraz kuchni. Nie jeden wyjazd pokazał mi, że można też poznać
+            nowych ludzi ! Podróże to jest coś co daje mi siłę i motywację , dzięki nim chce się żyć więc <i>carpe
+                diem</i> i ruszaj gdzie kolwiek chcesz !
+            Chciałabym Wam przedstawić listę krajów w których byłam i uważam, że warto je odwiedzić:
+            <ul class="section__list">
+                <li>Bałkany</li>
+                <ul>
+                    <li>Czarnogóra</li>
+                    <li>Albania</li>
+                    <li>Serbia</li>
+                    <li>Bośnia i Hercegowina</li>
+                </ul>
+                <li>Portugalia</li>
+                <li>Hiszpania</li>
+                <li>Cypr</li>
+                <li>Izrael</li>
+                <li>USA</li>
+                <ul>
+                    <li>Stan: New Jersey</li>
+                    <li>Stan: Pensylwania</li>
+                    <li>Stan: Floryda</li>
+                </ul>
+                <li>Włochy</li>
+                <li>Węgry</li>
+                <ul>
+                    <li>Budapeszt</li>
+                </ul>
+            </ul>
+            Najciekawszą historię wg. mnie ma <b>Cypr</b>. Małe Państwo o bardzo bogatej i skomplikowanej historii,
+            która ciągnie się po dziś dzień.<br> Jeśli masz ochotę poczytaj <a class="section__link" target="_blank"
+                rel="noreferrer noopener" href="https://pl.wikipedia.org/wiki/Cypr">Historia Cypru
+                (otworzy się w nowej karcie)</a>
+        </section>
+        <section id="kontakt" class="section">
+            <h2 class="section__header">Kontakt</h2>
+            <div class="section__contact"> Aleksandra Kozioł<br>
+                e-mail:<a class="section__link" href="mailto:aleksandra.koziol93@gmail.com">
+                    aleksandra.koziol93@gmail.com</a>
+                <br>
+                tel. kontaktowy: 508-296-603
+            </div>
+        </section>
+        <p><a href="#nawigacja" class="section__backButton">Wróć na górę</a> </p>
+    </main>
+    <footer>
+        © Copyright Aleksandra Kozioł - w ramach kursu YouCode
+    </footer>
+</body>
+
+</html>

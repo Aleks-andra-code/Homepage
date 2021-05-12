@@ -1,0 +1,30 @@
+.navigation {
+    background-color: #d6b15654;
+    margin: 50px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #f5e9cb;
+}
+
+.navigation__list {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.navigation__item {
+    padding: 10px;
+}
+
+.navigation__link {
+    color: white;
+    text-shadow: 9px -5px 8px #cac3b4;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: rgba(240, 218, 185, 0.753);
+    border-bottom: 1px;
+    outline: none;
+}

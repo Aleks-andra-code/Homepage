@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: #4c3005;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-family: 'Lora', serif;
+    line-height: 1.5;
+    color: white;
+}
+
+.title {
+    background-image: url(https://i.postimg.cc/rFVR4wxm/Ja.jpg);
+    height: 600px;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.titleText {
+    color: #eae7e5;
+    position: absolute;
+    top: 78%;
+    left: 33%;
+    text-shadow: 3px 3px 8px darkred;
+    font-size: 40px;
+}

@@ -1,0 +1,71 @@
+.section__header {
+    padding: 5px;
+    background-color: blanchedalmond;
+    box-shadow: 3px 3px 8px crimson;
+    color: black;
+}
+
+.section__element--riko {
+    color: #de694e;
+}
+
+.section__section--aboutMe {
+    text-shadow: -4px 1px 18px white;
+    color: #de694e;
+    font-style: italic;
+    padding: 5px;
+    border-bottom: 3px solid black;
+}
+
+.section__image {
+    width: 300px;
+    border-width: 10px;
+    border-style: double;
+    border-color: brown;
+    border-radius: 25%;
+    display: none;
+    margin: 20px auto;
+}
+
+.section__imageOn {
+    display: block;
+}
+
+.section__button {
+    background-color: rgb(230 226 176);
+    border: none;
+    font-family: 'Lora', serif;
+    padding: 10px 100px;
+    font-size: 15px;
+}
+
+.section__list {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.section__link {
+    color: white;
+}
+
+.section__link:visited {
+    color: rgba(240, 218, 185, 0.753);
+}
+
+.section__backButton {
+    background-color: rgb(230 226 176);
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 150px;
+    color: black;
+}
+
+.section__contact {
+    border-width: 2px;
+    border-style: solid;
+    border-color: cornsilk;
+    border-radius: 29%;
+    background-color: #65473c;
+    padding: 3%;
+    margin: 3%;
+}

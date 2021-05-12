@@ -1,0 +1,25 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__row:hover {
+    background-color: rgba(240, 218, 185, 0.753);
+}
+
+.table__caption {
+    background-color: burlywood;
+    font-size: 25px;
+    color: black;
+}
+
+.table__header {
+    background-color: burlywood;
+    color: black;
+}
+
+.table__cell {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
