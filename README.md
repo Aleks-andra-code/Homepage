@@ -1,5 +1,4 @@
-# Aleksandra Kozioł - My first Website.
-
+# Aleksandra Kozioł - My first Website
 ## Homepage Link 
 [My homepage ](https://aleks-andra-code.github.io/Homepage/) 
  
@@ -16,3 +15,4 @@
 2. css
 3. BEM
 4. JS
+
