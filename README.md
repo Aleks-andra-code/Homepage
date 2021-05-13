@@ -2,8 +2,8 @@
 
 ## Homepage Link 
 [My homepage ](https://aleks-andra-code.github.io/Homepage/) 
-Screenshot of page 
-    ![Tekst]()
+ 
+![Screenshot of page](https://github.com/Aleks-andra-code/Homepage/blob/main/images/Screenshot.jpg?raw=true)
 
 ## Homepage is my first website. I included here information about:
 1. About Me
