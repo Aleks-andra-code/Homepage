@@ -1,14 +1,22 @@
-console.log("hello world!");
-let imageOn = document.querySelector(".section__imageOn");
-let button = document.querySelector(".js-button");
-let image = document.querySelector(".section__image");
+{
+    const welcome = () => {
+        console.log("hello world!");
+    }
 
+    const showImage = () => {
+        const image = document.querySelector(".js-image");
+        const button = document.querySelector(".js-button");
+        image.classList.toggle("js-imageOn");
+        button.innerText = image.classList.contains("js-imageOn")
+            ? "Ukryj zdjęcie"
+            : "Pokaż zdjęcie";
+    }
+    
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", showImage);
+    }
 
-button.addEventListener("click", () => {
-    image.classList.toggle("section__imageOn");
-
-    button.innerText = image.classList.contains("section__imageOn")
-        ? "Ukryj zdjęcie"
-        : "Pokaż zdjęcie";
-
-});
+    welcome();
+    init();
+}
